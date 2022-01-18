@@ -1,0 +1,38 @@
+.app-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  height: 100vh;
+  background-size: cover;
+}
+.card-container {
+  width: 90%;
+}
+.image {
+  height: 60%;
+  width: 60%;
+  margin: 10px;
+}
+.main-heading {
+  color: #1e293b;
+  font-family: 'Roboto';
+  font-size: 26px;
+  padding: 5px;
+  align-self: flex-start;
+}
+.sub-heading {
+  color: #64748b;
+  font-family: 'Roboto';
+  font-size: 18px;
+  padding: 5px;
+  align-self: flex-start;
+}
+.thumbnail-images-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+  align-self: flex-start;
+}
